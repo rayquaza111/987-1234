@@ -1,0 +1,13 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore local environment variables (CRITICAL FOR SECURITY)
+.env
+
+# Ignore locally generated data (the container will scrape its own fresh data)
+articles/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
