@@ -5,6 +5,12 @@
 * Make a copy of `.env.sample` and rename it to `.env`.
 * Add your Gemini `API_KEY` into the `.env` file.
 
+## Chunking Strategy
+This project utilizes the Gemini `file_search_stores` API for automated knowledge base management. 
+
+* **Strategy:** I use an automatic chunking approach managed directly by the Google Gemini File Search API.
+* **Logic:** Each markdown file is uploaded as a complete document. The Gemini API service handles the intelligent semantic segmentation of text into optimized chunks to ensure maximum relevance and citation accuracy during the retrieval process.
+
 ## How to Run Locally
 
 Clone this repo: 
