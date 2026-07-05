@@ -5,11 +5,16 @@
 * Make a copy of `.env.sample` and rename it to `.env`.
 * Add your Gemini `API_KEY` into the `.env` file.
 
-## Chunking Strategy
-This project utilizes the Gemini `file_search_stores` API for automated knowledge base management. 
+### Chunking & Vectorization Strategy
 
-* **Strategy:** I use an automatic chunking approach managed directly by the Google Gemini File Search API.
-* **Logic:** Each markdown file is uploaded as a complete document. The Gemini API service handles the intelligent semantic segmentation of text into optimized chunks to ensure maximum relevance and citation accuracy during the retrieval process.
+**Strategy:** Platform-Managed Semantic Chunking
+
+**Logic & Implementation:**
+This project delegates the document chunking process directly to the Google Gemini API. Rather than implementing manual text-splitting (e.g., rigid character or token limits) locally in Python, the pipeline uploads complete, structured Markdown files via the `file_search_stores` API. 
+
+* **Optimization:** Gemini's backend automatically processes the Markdown files, applying semantic segmentation that is natively optimized for its own embedding models and retrieval system.
+* **Accuracy:** Uploading intact Markdown ensures that formatting, headers, and specific metadata (like the `Article URL:`) remain contextually linked during the cloud-side chunking process, preventing broken citations.
+* **Logging Consideration:** Because chunking is abstracted and handled entirely server-side by Google infrastructure, the local `main.py` script logs vector store ingestion at the document level (Files Added, Updated, Skipped) rather than individual chunk counts.
 
 ## How to Run Locally
 
