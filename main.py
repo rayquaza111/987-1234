@@ -47,9 +47,9 @@ def get_cloud_state(client, store_name):
 
 def sync_vector_store():
     load_dotenv(dotenv_path=".env")
-    api_key = os.getenv("GEMINI_API_KEY")
+    api_key = os.getenv("API_KEY")
     if not api_key:
-        raise ValueError("CRITICAL: Missing GEMINI_API_KEY.")
+        raise ValueError("CRITICAL: Missing API_KEY.")
 
     client = genai.Client(api_key=api_key)
     store_name = get_or_create_store(client)

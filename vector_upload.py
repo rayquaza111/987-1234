@@ -5,7 +5,7 @@ from google import genai
 from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env")
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+client = genai.Client(api_key=os.getenv("API_KEY"))
 
 # create the Vector Store (Knowledge Base)
 print("Creating Gemini Vector Store...")
