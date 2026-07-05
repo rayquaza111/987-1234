@@ -1,0 +1,46 @@
+==> Cron job run started
+2026-07-05 06:28:22,479 - INFO - --- STARTING DAILY SYNC JOB ---
+2026-07-05 06:28:22,479 - INFO - Fetching data from Zendesk API...
+2026-07-05 06:28:22,673 - INFO - Saved: articles/using-the-japan-earthquake-app_20260702T141618Z.md
+2026-07-05 06:28:22,680 - INFO - Saved: articles/how-to-display-a-snowflake-dashboard-with-optisigns_20260701T215922Z.md
+2026-07-05 06:28:22,686 - INFO - Saved: articles/optisigns-digital-signage-app-for-zoom-adding-using-and-removing-the-app_20260611T222443Z.md
+2026-07-05 06:28:22,712 - INFO - Saved: articles/connect-google-meet-hardware-to-optisigns-digital-signage_20260615T191407Z.md
+2026-07-05 06:28:22,777 - INFO - Saved: articles/connect-microsoft-teams-rooms-to-optisigns-digital-signage_20260624T183916Z.md
+2026-07-05 06:28:22,788 - INFO - Saved: articles/room-integrations-turn-your-meeting-rooms-into-digital-signage_20260615T191416Z.md
+2026-07-05 06:28:22,805 - INFO - Saved: articles/connect-zoom-rooms-to-optisigns-digital-signage_20260611T222200Z.md
+2026-07-05 06:28:22,871 - INFO - Saved: articles/connect-cisco-webex-rooms-to-optisigns-digital-signage_20260701T165546Z.md
+2026-07-05 06:28:22,883 - INFO - Saved: articles/chromeos-pwa-instructions_20260505T154827Z.md
+2026-07-05 06:28:22,891 - INFO - Saved: articles/how-to-use-the-google-ads-dashboard-app_20260202T175416Z.md
+2026-07-05 06:28:22,900 - INFO - Saved: articles/how-to-use-the-google-search-console-app_20260202T175642Z.md
+2026-07-05 06:28:22,908 - INFO - Saved: articles/how-to-use-the-youtube-dashboard-app_20260202T153255Z.md
+2026-07-05 06:28:22,969 - INFO - Saved: articles/operational-schedule-troubleshooting_20260420T212617Z.md
+2026-07-05 06:28:22,974 - INFO - Saved: articles/how-to-use-the-optidev-app_20260211T230349Z.md
+2026-07-05 06:28:22,979 - INFO - Saved: articles/how-to-set-up-an-outlook-calendar-app-with-shared-permissions_20251017T160118Z.md
+2026-07-05 06:28:22,985 - INFO - Saved: articles/using-an-enterprise-network-8021x-with-optisigns_20260520T181111Z.md
+2026-07-05 06:28:23,001 - INFO - Saved: articles/user-management-example-chain-restaurant-or-retail-store-with-multiple-locations_20250828T192855Z.md
+2026-07-05 06:28:23,076 - INFO - Saved: articles/getting-started-with-designer_20251007T171832Z.md
+2026-07-05 06:28:23,093 - INFO - Saved: articles/designer-20-new-features_20260512T141709Z.md
+2026-07-05 06:28:23,107 - INFO - Saved: articles/optisigns-propromax-player-troubleshooting-guide_20260113T212016Z.md
+2026-07-05 06:28:23,166 - INFO - Saved: articles/how-to-play-licensed-background-music-on-digital-signs-with-optisound_20260408T223337Z.md
+2026-07-05 06:28:23,172 - INFO - Saved: articles/disk-encryption_20250904T161923Z.md
+2026-07-05 06:28:23,191 - INFO - Saved: articles/optistick-troubleshooting-guide_20260626T135236Z.md
+2026-07-05 06:28:23,194 - INFO - Saved: articles/fixing-unexpected-screen-rotation-incorrect-orientation-with-optisigns-android-stick_20250904T152554Z.md
+2026-07-05 06:28:23,206 - INFO - Saved: articles/how-to-use-the-tableau-app_20260106T223649Z.md
+2026-07-05 06:28:23,208 - INFO - Saved: articles/handle-oauth-authentication-using-api-gateway-pre-request-configuration_20250828T184206Z.md
+2026-07-05 06:28:23,269 - INFO - Saved: articles/tagging-in-optisigns_20250909T193407Z.md
+2026-07-05 06:28:23,274 - INFO - Saved: articles/getting-started-with-an-optisigns-free-trial_20250904T184424Z.md
+2026-07-05 06:28:23,281 - INFO - Saved: articles/how-to-use-optisigns-with-microsoft-teams-rooms_20250904T184232Z.md
+2026-07-05 06:28:23,291 - INFO - Saved: articles/how-to-access-the-troubleshooting-page-of-the-optisigns-player_20250902T200824Z.md
+2026-07-05 06:28:24,074 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/fileSearchStores "HTTP/1.1 200 OK"
+2026-07-05 06:28:24,075 - INFO - Retrieving active cloud state for delta comparison...
+2026-07-05 06:28:24,644 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/fileSearchStores/optisigns-knowledge-base-dpgvk2o037mn/documents "HTTP/1.1 200 OK"
+2026-07-05 06:28:25,221 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/fileSearchStores/optisigns-knowledge-base-dpgvk2o037mn/documents?pageToken=cj0KD4IBDAiOuaTSBhCgmc63AQoqQihnZXR0aW5nc3RhcnRlZHdpdGhkZXNpZ25lcjItNWtobXVhdWsyczY4 "HTTP/1.1 200 OK"
+2026-07-05 06:28:25,777 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/fileSearchStores/optisigns-knowledge-base-dpgvk2o037mn/documents?pageToken=cj0KD4IBDAjiuaTSBhDQls77AQoqQihob3d0b3VzZXRoZXRhYmxlYXVhcHAyMDI2MDEtNnV2aGQ0OXJmcWtu "HTTP/1.1 200 OK"
+2026-07-05 06:28:26,337 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/fileSearchStores/optisigns-knowledge-base-dpgvk2o037mn/documents?pageToken=cj0KD4IBDAi0uqTSBhDwoIDBAgoqQih1c2luZ3RoZWphcGFuZWFydGhxdWFrZWFwcDItcmhqY211c3l3bnp5 "HTTP/1.1 200 OK"
+2026-07-05 06:28:26,909 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/fileSearchStores/optisigns-knowledge-base-dpgvk2o037mn/documents?pageToken=cjwKDoIBCwjPvKTSBhCgzfwXCipCKGdldHRpbmdzdGFydGVkd2l0aGRlc2lnbmVyMi15eW1tczllZnl2Mzc "HTTP/1.1 200 OK"
+2026-07-05 06:28:27,469 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/fileSearchStores/optisigns-knowledge-base-dpgvk2o037mn/documents?pageToken=cj0KD4IBDAiovaTSBhDA2NmRAgoqQihob3d0b3VzZXRoZXRhYmxlYXVhcHAyMDI2MDEtazNndjhlenBzZDBi "HTTP/1.1 200 OK"
+2026-07-05 06:28:27,471 - INFO - --- JOB COMPLETED SUCCESSFULLY ---
+================ DAILY JOB LOGS ================
+Added: 0, Updated: 0, Skipped: 30
+================================================
+==> Cron job run finished successfully
